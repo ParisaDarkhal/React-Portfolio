@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Button, Typography } from "@mui/material";
-import "./styles.css";
+import "../styles.css";
 
 export default function Intro() {
   return (
