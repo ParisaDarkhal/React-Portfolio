@@ -99,8 +99,9 @@ function Header() {
           <Box sx={{ flexGrow: 0 }}>
             <IconButton sx={{ p: 0 }}>
               <Avatar
+                sx={{ width: 56, height: 56 }}
                 alt="Parisa Darkhal"
-                src="..\src\images\parisa-portrate.jpg"
+                src="./images/parisa-portrate.jpg"
               />
             </IconButton>
           </Box>
