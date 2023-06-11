@@ -14,7 +14,16 @@ import fullPicImage from "./fullPic.svg";
 
 export default function Skills() {
   return (
-    <Box id="skills" className="darkBg">
+    <Box
+      id="skills"
+      className="darkBg"
+      padding={5}
+      margin="auto"
+      style={{ color: "white" }}
+    >
+      <Typography variant="h3" gutterBottom>
+        Skills
+      </Typography>
       <Grid container spacing={3}>
         {/* <Grid item className="skills" sm={12} md={6}>
           <img src="./images/Skills.svg" alt="skills" height={450} />

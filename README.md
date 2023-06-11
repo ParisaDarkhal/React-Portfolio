@@ -60,14 +60,11 @@ To install and run the React Portfolio locally, follow these steps:
 
 Include some screenshots or animated GIFs to showcase the appearance and functionality of the React Portfolio. For example:
 
-![Screenshot 1](screenshots/screenshot1.png)
-_Description: About Me section_
+_Description: Desktop View_
+![Screenshot 1](./public/Demo.png)
 
-![Screenshot 2](screenshots/screenshot2.png)
-_Description: Projects section_
-
-![Screenshot 3](screenshots/screenshot3.png)
-_Description: Contact Me section_
+_Description: Mobile View_
+![Screenshot 2](<./public/ezgif.com-video-to-gif%20(1).gif>)
 
 ## License
 
