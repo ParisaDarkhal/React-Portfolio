@@ -9,10 +9,12 @@ import {
   CardMedia,
 } from "@mui/material";
 import "../styles.css";
+import skillsImage from "./Skills.svg";
+import fullPicImage from "./fullPic.svg";
 
 export default function Skills() {
   return (
-    <Box className="darkBg">
+    <Box id="skills" className="darkBg">
       <Grid container spacing={3}>
         {/* <Grid item className="skills" sm={12} md={6}>
           <img src="./images/Skills.svg" alt="skills" height={450} />
@@ -23,7 +25,7 @@ export default function Skills() {
           >
             <CardMedia
               sx={{ height: 350 }}
-              image="./images/Skills.svg"
+              image={skillsImage}
               title="ProImage"
             />
             <CardContent>
@@ -49,7 +51,7 @@ export default function Skills() {
           >
             <CardMedia
               sx={{ height: 350 }}
-              image="./images/fullPic.svg"
+              image={fullPicImage}
               title="ProImage"
             />
             <CardContent>

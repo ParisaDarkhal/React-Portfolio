@@ -12,7 +12,15 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 
-const pages = ["Home", "About Me", "Contact Me"];
+import parisaImage from "./parisa-portrate.jpg";
+
+const pages = [
+  { label: "Home", url: "home" },
+  { label: "About Me", url: "aboutMe" },
+  { label: "Skills", url: "skills" },
+  { label: "Projects", url: "projects" },
+  { label: "Contact Me", url: "contactMe" },
+];
 
 function Header() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -23,6 +31,13 @@ function Header() {
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
+  };
+
+  const handleDownloadResume = () => {
+    const link = document.createElement("a");
+    link.href = "/resume.pdf"; // Path to your PDF file in the public folder
+    link.download = "resume.pdf"; // Specify the file name
+    link.click();
   };
 
   return (
@@ -58,11 +73,19 @@ function Header() {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+              {pages.map((page, index) => (
+                <MenuItem
+                  key={index}
+                  component="a"
+                  href={`#${page.url}`}
+                  onClick={handleCloseNavMenu}
+                >
+                  <Typography textAlign="center">{page.label}</Typography>
                 </MenuItem>
               ))}
+              <MenuItem key="downloadResume" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">Download Resume</Typography>
+              </MenuItem>
             </Menu>
           </Box>
           <AdbIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
@@ -81,29 +104,32 @@ function Header() {
               color: "inherit",
               textDecoration: "none",
             }}
-          >
-            LOGO
-          </Typography>
+          ></Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
+            {pages.map((page, index) => (
               <Button
-                key={page}
+                href={`#${page.url}`}
+                key={index}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
-                {page}
+                {page.label}
               </Button>
             ))}
+            <Button
+              sx={{ my: 2, mx: 5, color: "white", display: "block" }}
+              onClick={handleDownloadResume}
+            >
+              Download Resume
+            </Button>
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            <IconButton sx={{ p: 0 }}>
-              <Avatar
-                sx={{ width: 56, height: 56 }}
-                alt="Parisa Darkhal"
-                src="./images/parisa-portrate.jpg"
-              />
-            </IconButton>
+            <Avatar
+              sx={{ width: 56, height: 56 }}
+              alt="Parisa Darkhal"
+              src={parisaImage}
+            />
           </Box>
         </Toolbar>
       </Container>

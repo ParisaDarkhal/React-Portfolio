@@ -4,20 +4,24 @@ import "../styles.css";
 import AboutCard from "./AboutCard";
 import Icon from "@mdi/react";
 import { mdiElectronFramework } from "@mdi/js";
+import { FaStudiovinari, FaBookReader, FaAlgolia } from "react-icons/fa";
+import { RiTeamFill } from "react-icons/ri";
+import { DiResponsive } from "react-icons/di";
+import { MdDynamicFeed } from "react-icons/md";
 
 const aboutCardInfo = [
   {
-    icon: <Icon path={mdiElectronFramework} size={5} />,
+    icon: <FaBookReader size={60} />,
     title: "Love to Learn",
     text: "eager to take on new challenges and learn new skills",
   },
   {
-    icon: <Icon path={mdiElectronFramework} size={5} />,
+    icon: <FaAlgolia size={60} />,
     title: "Reliable",
     text: "Have a strong work ethic & a sense of responsibility",
   },
   {
-    icon: <Icon path={mdiElectronFramework} size={5} />,
+    icon: <RiTeamFill size={60} />,
     title: "Team Work",
     text: "team player, always collaborating & cooperating to get the best results",
   },
@@ -25,17 +29,17 @@ const aboutCardInfo = [
 
 const ProjectCardInfo = [
   {
-    icon: <Icon path={mdiElectronFramework} size={5} />,
+    icon: <FaStudiovinari size={60} />,
     title: "Fast",
     text: "Fast load times and lag free interaction",
   },
   {
-    icon: <Icon path={mdiElectronFramework} size={5} />,
+    icon: <DiResponsive size={70} />,
     title: "Responsive",
     text: "Layouts that work on any device, big or small.",
   },
   {
-    icon: <Icon path={mdiElectronFramework} size={5} />,
+    icon: <MdDynamicFeed size={60} />,
     title: "Dynamic",
     text: " Love making pages come to life.",
   },
@@ -43,7 +47,7 @@ const ProjectCardInfo = [
 
 export default function About() {
   return (
-    <Box>
+    <Box id="aboutMe">
       <Box padding={5} margin="auto">
         <Typography variant="h3" gutterBottom>
           About Me
@@ -52,8 +56,13 @@ export default function About() {
           direction={{ sm: "column", md: "row" }}
           // spacing={{ sm: 6, md: 6 }}
         >
-          {aboutCardInfo.map((item) => (
-            <AboutCard title={item.title} icon={item.icon} text={item.text} />
+          {aboutCardInfo.map((item, index) => (
+            <AboutCard
+              key={index}
+              title={item.title}
+              icon={item.icon}
+              text={item.text}
+            />
           ))}
         </Stack>
       </Box>
@@ -65,8 +74,13 @@ export default function About() {
           direction={{ sm: "column", md: "row" }}
           // spacing={{ sm: 6, md: 6 }}
         >
-          {ProjectCardInfo.map((item) => (
-            <AboutCard title={item.title} icon={item.icon} text={item.text} />
+          {ProjectCardInfo.map((item, index) => (
+            <AboutCard
+              key={index}
+              title={item.title}
+              icon={item.icon}
+              text={item.text}
+            />
           ))}
         </Stack>
       </Box>
