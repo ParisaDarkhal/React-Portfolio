@@ -7,6 +7,7 @@ import TechBlogImg from "./images/TechBlog.jpg";
 import weatherDashboardImg from "./images/Weather-Dashboard.jpg";
 import GotQuizImg from "./images/GOT-QUIZ.jpg";
 import newsHomepageImg from "./images/news-homepage.jpg";
+import urgentCareImg from "./images/landingPage.jpg";
 
 const projectCardInfo = [
   {
@@ -65,6 +66,14 @@ const projectCardInfo = [
     pageUrl:
       "https://parisadarkhal.github.io/MyFrontEndProjects/news-homepage-main/",
   },
+  {
+    alt: "Urgent Care Check In",
+    imageUrl: urgentCareImg,
+    title: "Urgent Care Check In",
+    description: "MERN, GraphQL, MongoDB, React",
+    githubUrl: "https://github.com/ParisaDarkhal/Urgent-Care-Checkin",
+    pageUrl: "https://urgent-care-checkin-2b5a8d3b5c6d.herokuapp.com/",
+  },
 ];
 
 export default function Projec() {
@@ -89,25 +98,6 @@ export default function Projec() {
             </Grid>
           ))}
         </Grid>
-
-        {/* <Stack
-          useFlexGap={true}
-          display={"flex"}
-          spacing={5}
-          direction={{ xs: "column", sm: "column", md: "row" }}
-        >
-          {projectCardInfo.map((item, index) => (
-            <ProjectCard
-              key={index}
-              alt={item.alt}
-              imageUrl={item.imageUrl}
-              title={item.title}
-              description={item.description}
-              githubUrl={item.githubUrl}
-              pageUrl={item.pageUrl}
-            />
-          ))}
-        </Stack> */}
       </Box>
     </Box>
   );
