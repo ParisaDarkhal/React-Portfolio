@@ -7,7 +7,7 @@ export default function Intro() {
     <Box className="lightBg">
       <Box width="50%" padding={20} margin="auto">
         <Typography variant="h3" gutterBottom>
-          Hello! I am Parisa Darkhal. I am a a Full Stack Web Developer.
+          Hello! I am Parisa Darkhal. I am a Full Stack Web Developer.
         </Typography>
         <Button variant="contained">Let's see my work</Button>
       </Box>
