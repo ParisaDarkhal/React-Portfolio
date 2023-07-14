@@ -8,6 +8,7 @@ import weatherDashboardImg from "./images/Weather-Dashboard.jpg";
 import GotQuizImg from "./images/GOT-QUIZ.jpg";
 import newsHomepageImg from "./images/news-homepage.jpg";
 import urgentCareImg from "./images/landingPage.jpg";
+import eternalEleganceImage from "./images/eternal-elegance.jpg";
 
 const projectCardInfo = [
   {
@@ -73,6 +74,14 @@ const projectCardInfo = [
     description: "MERN, GraphQL, MongoDB, React",
     githubUrl: "https://github.com/ParisaDarkhal/Urgent-Care-Checkin",
     pageUrl: "https://urgent-care-checkin-2b5a8d3b5c6d.herokuapp.com/",
+  },
+  {
+    alt: "Eternal Elegance",
+    imageUrl: eternalEleganceImage,
+    title: "Eternal Elegance",
+    description: "MERN, GraphQL, MongoDB, React",
+    githubUrl: "https://github.com/ParisaDarkhal/Eternal-Elegance-E-Commerce",
+    // pageUrl: "https://urgent-care-checkin-2b5a8d3b5c6d.herokuapp.com/",
   },
 ];
 
