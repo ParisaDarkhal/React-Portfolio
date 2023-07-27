@@ -9,6 +9,7 @@ import GotQuizImg from "./images/GOT-QUIZ.jpg";
 import newsHomepageImg from "./images/news-homepage.jpg";
 import urgentCareImg from "./images/landingPage.jpg";
 import eternalEleganceImage from "./images/eternal-elegance.jpg";
+import budgetManagementImage from "./images/budget-management.jpg";
 
 const projectCardInfo = [
   {
@@ -81,7 +82,15 @@ const projectCardInfo = [
     title: "Eternal Elegance",
     description: "MERN, GraphQL, MongoDB, React",
     githubUrl: "https://github.com/ParisaDarkhal/Eternal-Elegance-E-Commerce",
-    // pageUrl: "https://urgent-care-checkin-2b5a8d3b5c6d.herokuapp.com/",
+    // pageUrl: "",
+  },
+  {
+    alt: "Budget Management",
+    imageUrl: budgetManagementImage,
+    title: "Bedget Management",
+    description: "MERN, MYSQL, Sequelize, React, Material UI, RESTFUL API",
+    githubUrl: "https://github.com/ParisaDarkhal/budget-management",
+    // pageUrl: "",
   },
 ];
 
