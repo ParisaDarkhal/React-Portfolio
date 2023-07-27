@@ -35,7 +35,7 @@ function Header() {
 
   const handleDownloadResume = () => {
     const link = document.createElement("a");
-    link.href = "/resume.pdf"; // Path to your PDF file in the public folder
+    link.href = "./resume.pdf"; // Path to your PDF file in the public folder
     link.download = "resume.pdf"; // Specify the file name
     link.click();
   };

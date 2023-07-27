@@ -13,13 +13,28 @@ import budgetManagementImage from "./images/budget-management.jpg";
 
 const projectCardInfo = [
   {
-    alt: "Color-Simon-Game",
-    imageUrl: colorSimonGameImg,
-
-    title: "Color Simon Game",
-    description: "JavaScript, HTML, CSS",
-    githubUrl: "https://github.com/ParisaDarkhal/Colors-Simon-Game",
-    pageUrl: "https://parisadarkhal.github.io/Colors-Simon-Game/",
+    alt: "Urgent Care Check In",
+    imageUrl: urgentCareImg,
+    title: "Urgent Care Check In",
+    description: "MERN, GraphQL, MongoDB, React",
+    githubUrl: "https://github.com/ParisaDarkhal/Urgent-Care-Checkin",
+    pageUrl: "https://urgent-care-checkin-2b5a8d3b5c6d.herokuapp.com/",
+  },
+  {
+    alt: "Eternal Elegance",
+    imageUrl: eternalEleganceImage,
+    title: "Eternal Elegance",
+    description: "MERN, GraphQL, MongoDB, React",
+    githubUrl: "https://github.com/ParisaDarkhal/Eternal-Elegance-E-Commerce",
+    // pageUrl: "",
+  },
+  {
+    alt: "Budget Management",
+    imageUrl: budgetManagementImage,
+    title: "Bedget Management",
+    description: "MERN, MYSQL, Sequelize, React, Material UI, RESTFUL API",
+    githubUrl: "https://github.com/ParisaDarkhal/budget-management",
+    // pageUrl: "",
   },
   {
     alt: "Movie-Blog",
@@ -30,6 +45,16 @@ const projectCardInfo = [
     githubUrl: "https://github.com/SK-Edwards/The-Movie-Blog",
     pageUrl: "https://the-movie-blog.herokuapp.com/movies",
   },
+  {
+    alt: "Color-Simon-Game",
+    imageUrl: colorSimonGameImg,
+
+    title: "Color Simon Game",
+    description: "JavaScript, HTML, CSS",
+    githubUrl: "https://github.com/ParisaDarkhal/Colors-Simon-Game",
+    pageUrl: "https://parisadarkhal.github.io/Colors-Simon-Game/",
+  },
+
   {
     alt: "Tech-Blog",
     imageUrl: TechBlogImg,
@@ -67,30 +92,6 @@ const projectCardInfo = [
       "https://parisadarkhal.github.io/MyFrontEndProjects/news-homepage-main/",
     pageUrl:
       "https://parisadarkhal.github.io/MyFrontEndProjects/news-homepage-main/",
-  },
-  {
-    alt: "Urgent Care Check In",
-    imageUrl: urgentCareImg,
-    title: "Urgent Care Check In",
-    description: "MERN, GraphQL, MongoDB, React",
-    githubUrl: "https://github.com/ParisaDarkhal/Urgent-Care-Checkin",
-    pageUrl: "https://urgent-care-checkin-2b5a8d3b5c6d.herokuapp.com/",
-  },
-  {
-    alt: "Eternal Elegance",
-    imageUrl: eternalEleganceImage,
-    title: "Eternal Elegance",
-    description: "MERN, GraphQL, MongoDB, React",
-    githubUrl: "https://github.com/ParisaDarkhal/Eternal-Elegance-E-Commerce",
-    // pageUrl: "",
-  },
-  {
-    alt: "Budget Management",
-    imageUrl: budgetManagementImage,
-    title: "Bedget Management",
-    description: "MERN, MYSQL, Sequelize, React, Material UI, RESTFUL API",
-    githubUrl: "https://github.com/ParisaDarkhal/budget-management",
-    // pageUrl: "",
   },
 ];
 
