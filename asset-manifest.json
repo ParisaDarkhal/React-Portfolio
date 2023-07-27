@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.1762fb44.css",
-    "main.js": "/React-Portfolio/static/js/main.02e816de.js",
+    "main.js": "/React-Portfolio/static/js/main.841222de.js",
     "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/MovieBlog.jpg": "/React-Portfolio/static/media/MovieBlog.09dbf510d1d0821f73ba.jpg",
     "static/media/news-homepage.jpg": "/React-Portfolio/static/media/news-homepage.c947dbda7df5a32bd4a3.jpg",
     "static/media/landingPage.jpg": "/React-Portfolio/static/media/landingPage.4eb783571953fc12fb53.jpg",
+    "static/media/budget-management.jpg": "/React-Portfolio/static/media/budget-management.dc38c0293a901707bb28.jpg",
     "static/media/Weather-Dashboard.jpg": "/React-Portfolio/static/media/Weather-Dashboard.9b07488d92ff766987cf.jpg",
     "static/media/eternal-elegance.jpg": "/React-Portfolio/static/media/eternal-elegance.a7ff5a544440c269e085.jpg",
     "static/media/TechBlog.jpg": "/React-Portfolio/static/media/TechBlog.6901a13cae5d01f9fe8f.jpg",
@@ -72,11 +73,11 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/React-Portfolio/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/React-Portfolio/index.html",
     "main.1762fb44.css.map": "/React-Portfolio/static/css/main.1762fb44.css.map",
-    "main.02e816de.js.map": "/React-Portfolio/static/js/main.02e816de.js.map",
+    "main.841222de.js.map": "/React-Portfolio/static/js/main.841222de.js.map",
     "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1762fb44.css",
-    "static/js/main.02e816de.js"
+    "static/js/main.841222de.js"
   ]
 }
