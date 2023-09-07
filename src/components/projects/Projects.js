@@ -31,7 +31,7 @@ const projectCardInfo = [
   {
     alt: "Budget Management",
     imageUrl: budgetManagementImage,
-    title: "Bedget Management",
+    title: "Budget Management",
     description: "MERN, MYSQL, Sequelize, React, Material UI, RESTFUL API",
     githubUrl: "https://github.com/ParisaDarkhal/budget-management",
     // pageUrl: "",
