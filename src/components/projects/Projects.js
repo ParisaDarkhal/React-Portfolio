@@ -21,6 +21,8 @@ const projectCardInfo = [
     githubUrl: "#",
     pageUrl:
       "https://newbreedofyouth.org/?fbclid=IwAR0htLIhCmVZxEczRD1H6OsJ2UdptuEQT1AEbUFr4cMU5MlUF12DYJzbbwQ",
+    details:
+      "I had the privilege of volunteering as a WordPress developer for the GLO23 event, part of the 48in48 initiative, where I contributed to the creation of a website for a non-profit organization. My responsibilities included designing and implementing various key components such as forms, an Events page, dedicated pages for Mentees and Mentors, and the site’s Navbar.",
   },
   {
     alt: "Urgent Care Check In",
@@ -29,6 +31,8 @@ const projectCardInfo = [
     description: "MERN, GraphQL, MongoDB, React",
     githubUrl: "https://github.com/ParisaDarkhal/Urgent-Care-Checkin",
     pageUrl: "https://urgent-care-checkin-2b5a8d3b5c6d.herokuapp.com/",
+    details:
+      "A highly adaptable appointment booking system originally designed for an urgent care practice that can be easily customized to suit various practices requiring appointment scheduling capabilities. Users are able to book, update, and cancel appointments through a user-friendly interface. ● Role: Collaborative Team Member, Backend and Frontend ● Tools: HTML, MongoDB, GraphQL, React, JavaScript, Bootstrap, Font Awesome",
   },
   {
     alt: "Eternal Elegance",
@@ -37,6 +41,8 @@ const projectCardInfo = [
     description: "MERN, GraphQL, MongoDB, React",
     githubUrl: "https://github.com/ParisaDarkhal/Eternal-Elegance-E-Commerce",
     // pageUrl: "",
+    details:
+      "Eternal Elegance is an e-commerce website for jewelry. The project was created to improve skills in MongoDB, GraphQL, React, Material UI, and other technologies.",
   },
   {
     alt: "Budget Management",
@@ -45,6 +51,8 @@ const projectCardInfo = [
     description: "MERN, MYSQL, Sequelize, React, Material UI, RESTFUL API",
     githubUrl: "https://github.com/ParisaDarkhal/budget-management",
     // pageUrl: "",
+    details:
+      "Eternal Elegance is an e-commerce website for jewelry. The project was created to improve skills in MongoDB, GraphQL, React, Material UI, and other technologies.",
   },
   {
     alt: "Movie-Blog",
@@ -54,6 +62,8 @@ const projectCardInfo = [
     description: "MONGODB, Handlebar, ...",
     githubUrl: "https://github.com/SK-Edwards/The-Movie-Blog",
     pageUrl: "https://the-movie-blog.herokuapp.com/movies",
+    details:
+      "Interactive website that enables users to search for favorite movies and engage in discussions by leaving comments. My Role: Collaborative Team Member, Backend and Frontend ● Tools: MySQL, Express, Tailwind, REST APIs, Express, Express Handlebars, JavaScript, ORM (Sequelize)",
   },
   {
     alt: "Color-Simon-Game",
@@ -63,6 +73,7 @@ const projectCardInfo = [
     description: "JavaScript, HTML, CSS",
     githubUrl: "https://github.com/ParisaDarkhal/Colors-Simon-Game",
     pageUrl: "https://parisadarkhal.github.io/Colors-Simon-Game/",
+    details: "something",
   },
 
   {
@@ -73,6 +84,8 @@ const projectCardInfo = [
     description: "MONGODB, Handlebar, ...",
     githubUrl: "https://github.com/ParisaDarkhal/Tech-Blog",
     pageUrl: "https://tech-blog-pdg.herokuapp.com/",
+    details:
+      "Tech Blog is a web application that allows users to post content and comment on other people's posts. Users are required to log in or sign up before they can make a post. Once logged in, the user's username is displayed along with a logout button. Users can view all the posts, with the newest posts displayed at the top, by clicking on the home button. They can also click on individual posts to leave comments.",
   },
   {
     alt: "Weather Dashboard",
@@ -82,6 +95,8 @@ const projectCardInfo = [
     description: "JavaScript, API, ...",
     githubUrl: "https://github.com/ParisaDarkhal/Weather-Dashboard",
     pageUrl: "https://parisadarkhal.github.io/Weather-Dashboard/",
+    details:
+      "This is a web application that provides weather information of a city for the current day and forecast for the next 5 days. It uses the third-party API provided by Openweathermap.org to get the weather data and day.js to handle date and time.",
   },
   {
     alt: "GOT Quiz",
@@ -91,6 +106,8 @@ const projectCardInfo = [
     description: "JavaScript,  ...",
     githubUrl: "https://github.com/ParisaDarkhal/Trivia-Quiz",
     pageUrl: "https://parisadarkhal.github.io/Trivia-Quiz/",
+    details:
+      "Welcome to the Trivia Quiz - Game of Thrones Edition! This is a timed multiple choice quiz designed to challenge your memory about the TV series Game of Thrones. You will have 30 seconds to answer 3 question, and your score will be based on the number of correct and incorrect answers.",
   },
   {
     alt: "News Homepage",
@@ -102,6 +119,7 @@ const projectCardInfo = [
       "https://parisadarkhal.github.io/MyFrontEndProjects/news-homepage-main/",
     pageUrl:
       "https://parisadarkhal.github.io/MyFrontEndProjects/news-homepage-main/",
+    details: "something",
   },
 ];
 
@@ -123,6 +141,7 @@ export default function Projec() {
                 description={item.description}
                 githubUrl={item.githubUrl}
                 pageUrl={item.pageUrl}
+                details={item.details}
               />
             </Grid>
           ))}
