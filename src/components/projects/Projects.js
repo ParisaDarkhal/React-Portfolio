@@ -11,6 +11,8 @@ import urgentCareImg from "./images/landingPage.jpg";
 import eternalEleganceImage from "./images/eternal-elegance.jpg";
 import budgetManagementImage from "./images/budget-management.jpg";
 import newBoyImage from "./images/New-Boy-Website.jpg";
+import picfolio from "./images/picfolio.jpg";
+import RPSLS from "./images/RPSLS.jpg";
 
 const projectCardInfo = [
   {
@@ -35,6 +37,17 @@ const projectCardInfo = [
       "A highly adaptable appointment booking system originally designed for an urgent care practice that can be easily customized to suit various practices requiring appointment scheduling capabilities. Users are able to book, update, and cancel appointments through a user-friendly interface. ● Role: Collaborative Team Member, Backend and Frontend ● Tools: HTML, MongoDB, GraphQL, React, JavaScript, Bootstrap, Font Awesome",
   },
   {
+    alt: "Movie-Blog",
+    imageUrl: movieBlogImg,
+
+    title: "Movie Blog",
+    description: "MONGODB, Handlebar, ...",
+    githubUrl: "https://github.com/SK-Edwards/The-Movie-Blog",
+    pageUrl: "https://the-movie-blog.herokuapp.com/movies",
+    details:
+      "Interactive website that enables users to search for favorite movies and engage in discussions by leaving comments. My Role: Collaborative Team Member, Backend and Frontend ● Tools: MySQL, Express, Tailwind, REST APIs, Express, Express Handlebars, JavaScript, ORM (Sequelize)",
+  },
+  {
     alt: "Eternal Elegance",
     imageUrl: eternalEleganceImage,
     title: "Eternal Elegance",
@@ -55,15 +68,28 @@ const projectCardInfo = [
       "Eternal Elegance is an e-commerce website for jewelry. The project was created to improve skills in MongoDB, GraphQL, React, Material UI, and other technologies.",
   },
   {
-    alt: "Movie-Blog",
-    imageUrl: movieBlogImg,
+    alt: "Picfolio",
+    imageUrl: picfolio,
 
-    title: "Movie Blog",
-    description: "MONGODB, Handlebar, ...",
-    githubUrl: "https://github.com/SK-Edwards/The-Movie-Blog",
-    pageUrl: "https://the-movie-blog.herokuapp.com/movies",
+    title: "Picfolio",
+    description: "React, MUI, mutler, react-photo-album library",
+    githubUrl: "https://github.com/ParisaDarkhal/picfolio",
+    pageUrl: "#",
     details:
-      "Interactive website that enables users to search for favorite movies and engage in discussions by leaving comments. My Role: Collaborative Team Member, Backend and Frontend ● Tools: MySQL, Express, Tailwind, REST APIs, Express, Express Handlebars, JavaScript, ORM (Sequelize)",
+      "PicFolio is a web application built with React and styled using Material-UI (MUI). It allows users to upload photos, organize them into albums, view pictures, navigate through them, and even have a slideshow experience using a carousel. Users also have the ability to delete photos by clicking on a delete button. The application utilizes the react-photo-album library for creating albums and managing photos and the multer npm package to handle photo uploads.",
+  },
+  {
+    alt: "Rock Paper Scissors Lizard Spock",
+    imageUrl: RPSLS,
+
+    title: "Rock Paper Scissors Lizard Spock",
+    description: "React, MUI, JavaScript",
+    githubUrl:
+      "https://github.com/ParisaDarkhal/rock-paper-scissors-lizard-spock",
+    pageUrl:
+      "https://parisadarkhal.github.io/rock-paper-scissors-lizard-spock/",
+    details:
+      "Welcome to the Rock Paper Scissors Lizard Spock Game! This is a one-page web application that allows you to play the classic game with a twist. The game is built using React and programmed with JavaScript, and styled with Material UI. It is deployed on GitHub Pages.",
   },
   {
     alt: "Color-Simon-Game",
@@ -73,7 +99,7 @@ const projectCardInfo = [
     description: "JavaScript, HTML, CSS",
     githubUrl: "https://github.com/ParisaDarkhal/Colors-Simon-Game",
     pageUrl: "https://parisadarkhal.github.io/Colors-Simon-Game/",
-    details: "something",
+    details: "It is a colored version of Simon-Said game.",
   },
 
   {
@@ -119,7 +145,8 @@ const projectCardInfo = [
       "https://parisadarkhal.github.io/MyFrontEndProjects/news-homepage-main/",
     pageUrl:
       "https://parisadarkhal.github.io/MyFrontEndProjects/news-homepage-main/",
-    details: "something",
+    details:
+      "A challenge by FrontEnd Mentor page to practice and improve skills in HTML, CSS, JS",
   },
 ];
 

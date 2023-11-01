@@ -31,7 +31,20 @@ export default function ContactMe() {
       <Typography variant="h3" gutterBottom>
         Contact Me
       </Typography>
-      <Box py={5} margin={"auto"} width={"50%"}>
+      <Box style={{ color: "white" }}>
+        <iframe
+          src="https://tally.so/embed/mBpRdK?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          loading="lazy"
+          width="80%"
+          height="200"
+          frameBorder="0"
+          marginHeight="0"
+          marginWidth="0"
+          title="Contact Me
+"
+        ></iframe>
+      </Box>
+      {/* <Box py={5} margin={"auto"} width={"50%"}>
         <TextField
           fullWidth
           style={{ backgroundColor: "white", margin: "10px" }}
@@ -56,8 +69,8 @@ export default function ContactMe() {
           <Button variant={"contained"} onClick={handleSubmitBtn}>
             Submit
           </Button>
-        </Box>
-      </Box>
+        </Box> */}
+      {/* </Box> */}
     </Box>
   );
 }
