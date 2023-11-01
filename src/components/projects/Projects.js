@@ -10,8 +10,18 @@ import newsHomepageImg from "./images/news-homepage.jpg";
 import urgentCareImg from "./images/landingPage.jpg";
 import eternalEleganceImage from "./images/eternal-elegance.jpg";
 import budgetManagementImage from "./images/budget-management.jpg";
+import newBoyImage from "./images/New-Boy-Website.jpg";
 
 const projectCardInfo = [
+  {
+    alt: "New BOY Website",
+    imageUrl: newBoyImage,
+    title: "New BOY",
+    description: "WordPress",
+    githubUrl: "#",
+    pageUrl:
+      "https://newbreedofyouth.org/?fbclid=IwAR0htLIhCmVZxEczRD1H6OsJ2UdptuEQT1AEbUFr4cMU5MlUF12DYJzbbwQ",
+  },
   {
     alt: "Urgent Care Check In",
     imageUrl: urgentCareImg,
