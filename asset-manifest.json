@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.1762fb44.css",
-    "main.js": "/React-Portfolio/static/js/main.639ea102.js",
+    "main.js": "/React-Portfolio/static/js/main.5bff5ab5.js",
     "static/js/787.1ed0c42c.chunk.js": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/MovieBlog.jpg": "/React-Portfolio/static/media/MovieBlog.09dbf510d1d0821f73ba.jpg",
     "static/media/picfolio.jpg": "/React-Portfolio/static/media/picfolio.6f4c29e5e824e2e2736c.jpg",
     "static/media/news-homepage.jpg": "/React-Portfolio/static/media/news-homepage.c947dbda7df5a32bd4a3.jpg",
     "static/media/landingPage.jpg": "/React-Portfolio/static/media/landingPage.4eb783571953fc12fb53.jpg",
+    "static/media/transformAiStudio.jpg": "/React-Portfolio/static/media/transformAiStudio.590c60d79bfecfab454c.jpg",
     "static/media/New-Boy-Website.jpg": "/React-Portfolio/static/media/New-Boy-Website.5560033a7a32865cf63b.jpg",
     "static/media/budget-management.jpg": "/React-Portfolio/static/media/budget-management.dc38c0293a901707bb28.jpg",
     "static/media/Weather-Dashboard.jpg": "/React-Portfolio/static/media/Weather-Dashboard.9b07488d92ff766987cf.jpg",
@@ -76,11 +77,11 @@
     "static/media/roboto-greek-ext-700-normal.woff": "/React-Portfolio/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/React-Portfolio/index.html",
     "main.1762fb44.css.map": "/React-Portfolio/static/css/main.1762fb44.css.map",
-    "main.639ea102.js.map": "/React-Portfolio/static/js/main.639ea102.js.map",
+    "main.5bff5ab5.js.map": "/React-Portfolio/static/js/main.5bff5ab5.js.map",
     "787.1ed0c42c.chunk.js.map": "/React-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1762fb44.css",
-    "static/js/main.639ea102.js"
+    "static/js/main.5bff5ab5.js"
   ]
 }
