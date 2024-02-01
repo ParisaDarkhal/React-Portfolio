@@ -13,8 +13,19 @@ import budgetManagementImage from "./images/budget-management.jpg";
 import newBoyImage from "./images/New-Boy-Website.jpg";
 import picfolio from "./images/picfolio.jpg";
 import RPSLS from "./images/RPSLS.jpg";
+import transformAiStudio from "./images/transformAiStudio.jpg";
 
 const projectCardInfo = [
+  {
+    alt: "Transform AI Studio",
+    imageUrl: transformAiStudio,
+    title: "Transform AI Studio",
+    description: "Astro and Tailwind",
+    githubUrl: "#",
+    pageUrl: "https://www.transformaistudio.com/",
+    details:
+      "Webpage designed and developed for Start Up company with different sections and links to their different pages.",
+  },
   {
     alt: "New BOY Website",
     imageUrl: newBoyImage,
