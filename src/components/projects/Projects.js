@@ -12,11 +12,22 @@ import eternalEleganceImage from './images/eternal-elegance.jpg';
 import budgetManagementImage from './images/budget-management.jpg';
 import newBoyImage from './images/New-Boy-Website.jpg';
 import picfolio from './images/picfolio.jpg';
+import Antagene from './images/antagene.jpg';
 import RPSLS from './images/RPSLS.jpg';
 import transformAiStudio from './images/transformAiStudio.jpg';
 import Oscr from './images/oscr.jpg';
 
 const projectCardInfo = [
+  {
+    alt: 'AngageneINC',
+    imageUrl: Antagene,
+    title: 'Antagene INC',
+    description: 'WordPress, Web.com',
+    githubUrl: '#',
+    pageUrl: 'https://antageneinc.com/',
+    details:
+      'Responsive wAebpages designed and developed for Biomedical and Antibody company with different sections and links to their different pages, with data management and tebles for products.',
+  },
   {
     alt: 'Oscr AI',
     imageUrl: Oscr,
@@ -48,58 +59,58 @@ const projectCardInfo = [
     details:
       'I had the privilege of volunteering as a WordPress developer for the GLO23 event, part of the 48in48 initiative, where I contributed to the creation of a website for a non-profit organization. My responsibilities included designing and implementing various key components such as forms, an Events page, dedicated pages for Mentees and Mentors, and the site’s Navbar.',
   },
-  {
-    alt: 'Urgent Care Check In',
-    imageUrl: urgentCareImg,
-    title: 'Urgent Care Check In',
-    description: 'MERN, GraphQL, MongoDB, React',
-    githubUrl: 'https://github.com/ParisaDarkhal/Urgent-Care-Checkin',
-    pageUrl: 'https://urgent-care-checkin-2b5a8d3b5c6d.herokuapp.com/',
-    details:
-      'A highly adaptable appointment booking system originally designed for an urgent care practice that can be easily customized to suit various practices requiring appointment scheduling capabilities. Users are able to book, update, and cancel appointments through a user-friendly interface. ● Role: Collaborative Team Member, Backend and Frontend ● Tools: HTML, MongoDB, GraphQL, React, JavaScript, Bootstrap, Font Awesome',
-  },
-  {
-    alt: 'Movie-Blog',
-    imageUrl: movieBlogImg,
+  // {
+  //   alt: 'Urgent Care Check In',
+  //   imageUrl: urgentCareImg,
+  //   title: 'Urgent Care Check In',
+  //   description: 'MERN, GraphQL, MongoDB, React',
+  //   githubUrl: 'https://github.com/ParisaDarkhal/Urgent-Care-Checkin',
+  //   pageUrl: 'https://urgent-care-checkin-2b5a8d3b5c6d.herokuapp.com/',
+  //   details:
+  //     'A highly adaptable appointment booking system originally designed for an urgent care practice that can be easily customized to suit various practices requiring appointment scheduling capabilities. Users are able to book, update, and cancel appointments through a user-friendly interface. ● Role: Collaborative Team Member, Backend and Frontend ● Tools: HTML, MongoDB, GraphQL, React, JavaScript, Bootstrap, Font Awesome',
+  // },
+  // {
+  //   alt: 'Movie-Blog',
+  //   imageUrl: movieBlogImg,
 
-    title: 'Movie Blog',
-    description: 'MONGODB, Handlebar, ...',
-    githubUrl: 'https://github.com/SK-Edwards/The-Movie-Blog',
-    pageUrl: 'https://the-movie-blog.herokuapp.com/movies',
-    details:
-      'Interactive website that enables users to search for favorite movies and engage in discussions by leaving comments. My Role: Collaborative Team Member, Backend and Frontend ● Tools: MySQL, Express, Tailwind, REST APIs, Express, Express Handlebars, JavaScript, ORM (Sequelize)',
-  },
-  {
-    alt: 'Eternal Elegance',
-    imageUrl: eternalEleganceImage,
-    title: 'Eternal Elegance',
-    description: 'MERN, GraphQL, MongoDB, React',
-    githubUrl: 'https://github.com/ParisaDarkhal/Eternal-Elegance-E-Commerce',
-    // pageUrl: "",
-    details:
-      'Eternal Elegance is an e-commerce website for jewelry. The project was created to improve skills in MongoDB, GraphQL, React, Material UI, and other technologies.',
-  },
-  {
-    alt: 'Budget Management',
-    imageUrl: budgetManagementImage,
-    title: 'Budget Management',
-    description: 'MERN, MYSQL, Sequelize, React, Material UI, RESTFUL API',
-    githubUrl: 'https://github.com/ParisaDarkhal/budget-management',
-    // pageUrl: "",
-    details:
-      'Eternal Elegance is an e-commerce website for jewelry. The project was created to improve skills in MongoDB, GraphQL, React, Material UI, and other technologies.',
-  },
-  {
-    alt: 'Picfolio',
-    imageUrl: picfolio,
+  //   title: 'Movie Blog',
+  //   description: 'MONGODB, Handlebar, ...',
+  //   githubUrl: 'https://github.com/SK-Edwards/The-Movie-Blog',
+  //   pageUrl: 'https://the-movie-blog.herokuapp.com/movies',
+  //   details:
+  //     'Interactive website that enables users to search for favorite movies and engage in discussions by leaving comments. My Role: Collaborative Team Member, Backend and Frontend ● Tools: MySQL, Express, Tailwind, REST APIs, Express, Express Handlebars, JavaScript, ORM (Sequelize)',
+  // },
+  // {
+  //   alt: 'Eternal Elegance',
+  //   imageUrl: eternalEleganceImage,
+  //   title: 'Eternal Elegance',
+  //   description: 'MERN, GraphQL, MongoDB, React',
+  //   githubUrl: 'https://github.com/ParisaDarkhal/Eternal-Elegance-E-Commerce',
+  // pageUrl: "",
+  //   details:
+  //     'Eternal Elegance is an e-commerce website for jewelry. The project was created to improve skills in MongoDB, GraphQL, React, Material UI, and other technologies.',
+  // },
+  // {
+  //   alt: 'Budget Management',
+  //   imageUrl: budgetManagementImage,
+  //   title: 'Budget Management',
+  //   description: 'MERN, MYSQL, Sequelize, React, Material UI, RESTFUL API',
+  //   githubUrl: 'https://github.com/ParisaDarkhal/budget-management',
+  // pageUrl: "",
+  //   details:
+  //     'Eternal Elegance is an e-commerce website for jewelry. The project was created to improve skills in MongoDB, GraphQL, React, Material UI, and other technologies.',
+  // },
+  // {
+  //   alt: 'Picfolio',
+  //   imageUrl: picfolio,
 
-    title: 'Picfolio',
-    description: 'React, MUI, mutler, react-photo-album library',
-    githubUrl: 'https://github.com/ParisaDarkhal/picfolio',
-    pageUrl: '#',
-    details:
-      'PicFolio is a web application built with React and styled using Material-UI (MUI). It allows users to upload photos, organize them into albums, view pictures, navigate through them, and even have a slideshow experience using a carousel. Users also have the ability to delete photos by clicking on a delete button. The application utilizes the react-photo-album library for creating albums and managing photos and the multer npm package to handle photo uploads.',
-  },
+  //   title: 'Picfolio',
+  //   description: 'React, MUI, mutler, react-photo-album library',
+  //   githubUrl: 'https://github.com/ParisaDarkhal/picfolio',
+  //   pageUrl: '#',
+  //   details:
+  //     'PicFolio is a web application built with React and styled using Material-UI (MUI). It allows users to upload photos, organize them into albums, view pictures, navigate through them, and even have a slideshow experience using a carousel. Users also have the ability to delete photos by clicking on a delete button. The application utilizes the react-photo-album library for creating albums and managing photos and the multer npm package to handle photo uploads.',
+  // },
   {
     alt: 'Rock Paper Scissors Lizard Spock',
     imageUrl: RPSLS,
@@ -124,17 +135,17 @@ const projectCardInfo = [
     details: 'It is a colored version of Simon-Said game.',
   },
 
-  {
-    alt: 'Tech-Blog',
-    imageUrl: TechBlogImg,
+  // {
+  //   alt: 'Tech-Blog',
+  //   imageUrl: TechBlogImg,
 
-    title: 'Tech Blog',
-    description: 'MONGODB, Handlebar, ...',
-    githubUrl: 'https://github.com/ParisaDarkhal/Tech-Blog',
-    pageUrl: 'https://tech-blog-pdg.herokuapp.com/',
-    details:
-      "Tech Blog is a web application that allows users to post content and comment on other people's posts. Users are required to log in or sign up before they can make a post. Once logged in, the user's username is displayed along with a logout button. Users can view all the posts, with the newest posts displayed at the top, by clicking on the home button. They can also click on individual posts to leave comments.",
-  },
+  //   title: 'Tech Blog',
+  //   description: 'MONGODB, Handlebar, ...',
+  //   githubUrl: 'https://github.com/ParisaDarkhal/Tech-Blog',
+  //   pageUrl: 'https://tech-blog-pdg.herokuapp.com/',
+  //   details:
+  //     "Tech Blog is a web application that allows users to post content and comment on other people's posts. Users are required to log in or sign up before they can make a post. Once logged in, the user's username is displayed along with a logout button. Users can view all the posts, with the newest posts displayed at the top, by clicking on the home button. They can also click on individual posts to leave comments.",
+  // },
   {
     alt: 'Weather Dashboard',
     imageUrl: weatherDashboardImg,
@@ -157,19 +168,19 @@ const projectCardInfo = [
     details:
       'Welcome to the Trivia Quiz - Game of Thrones Edition! This is a timed multiple choice quiz designed to challenge your memory about the TV series Game of Thrones. You will have 30 seconds to answer 3 question, and your score will be based on the number of correct and incorrect answers.',
   },
-  {
-    alt: 'News Homepage',
-    imageUrl: newsHomepageImg,
+  // {
+  //   alt: 'News Homepage',
+  //   imageUrl: newsHomepageImg,
 
-    title: 'News Homepage',
-    description: 'JavaScript, HTML, CSS',
-    githubUrl:
-      'https://parisadarkhal.github.io/MyFrontEndProjects/news-homepage-main/',
-    pageUrl:
-      'https://parisadarkhal.github.io/MyFrontEndProjects/news-homepage-main/',
-    details:
-      'A challenge by FrontEnd Mentor page to practice and improve skills in HTML, CSS, JS',
-  },
+  //   title: 'News Homepage',
+  //   description: 'JavaScript, HTML, CSS',
+  //   githubUrl:
+  //     'https://parisadarkhal.github.io/MyFrontEndProjects/news-homepage-main/',
+  //   pageUrl:
+  //     'https://parisadarkhal.github.io/MyFrontEndProjects/news-homepage-main/',
+  //   details:
+  //     'A challenge by FrontEnd Mentor page to practice and improve skills in HTML, CSS, JS',
+  // },
 ];
 
 export default function Projec() {
