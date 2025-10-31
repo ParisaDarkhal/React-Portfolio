@@ -16,8 +16,19 @@ import Antagene from './images/antagene.jpg';
 import RPSLS from './images/RPSLS.jpg';
 import transformAiStudio from './images/transformAiStudio.jpg';
 import Oscr from './images/oscr.jpg';
+import vocabMe from './images/vocabMe.jpg';
 
 const projectCardInfo = [
+  {
+    alt: 'Vocab-Me',
+    imageUrl: vocabMe,
+    title: 'Vocab-Me',
+    description: 'OpenAI, TypeScript, Tailwind, Vercel',
+    githubUrl: 'https://github.com/ParisaDarkhal/vocabMe',
+    pageUrl: 'https://vocab-me.vercel.app/',
+    details:
+      'Responsive web application with educational purpose using AI to age appropriately explain the meaning of the list of given words along with examples and create a short story form them to show how to use them in context.',
+  },
   {
     alt: 'AngageneINC',
     imageUrl: Antagene,
@@ -26,7 +37,7 @@ const projectCardInfo = [
     githubUrl: '#',
     pageUrl: 'https://antageneinc.com/',
     details:
-      'Responsive wAebpages designed and developed for Biomedical and Antibody company with different sections and links to their different pages, with data management and tebles for products.',
+      'Responsive web pages designed and developed for Biomedical and Antibody company with different sections and links to their different pages, with data management and tables for products.',
   },
   {
     alt: 'Oscr AI',
